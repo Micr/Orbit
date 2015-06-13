@@ -1,0 +1,187 @@
+h3 {
+	padding: 0 10px;
+}
+
+a:focus, a:active {
+	outline: 0;
+}
+
+label.checkbox {
+	background-color: #eee;
+}
+
+.remove-field {
+	margin-left: 1px !important;
+	width: 29px;
+}
+
+#allowed_pages {
+	display: block;
+	height: 200px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.farbtastic {
+	z-index: 2;
+}
+
+.theme_options_heading {
+	color: #ddd;
+	text-shadow: 0 -1px 0 #151515;
+	margin: 0 0 10px;
+	padding: 20px;
+	font-family: Merriweather Sans;
+	background: #7d7e7d;
+	background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e));
+	background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+	background: -o-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+	background: -ms-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+	background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+}
+
+.tabbable:before,
+.tabbable:after {
+	content: " ";
+	display: table;
+}
+
+.tabbable:after {
+	clear: both;
+}
+
+.tabbable {
+	width: 100%;
+	background-color: rgb(179, 179, 179);
+}
+
+.tab-content {
+	float: right;
+	overflow: visible;
+	width: 80%;
+	background-color: #eee;
+}
+
+.tab-content h3 .ts_disabled {
+	margin-left: 10px;
+}
+
+.wp-picker-holder {
+	position: absolute;
+	z-index: 2;
+}
+
+.notify {
+	display: none;
+	height: 24px;
+	margin-bottom: 6px;
+}
+
+.nav.nav-tabs {
+	width: 18%;
+	float: left;
+	margin: 1%;
+}
+
+.nav.nav-tabs li {
+	margin: 0;
+}
+
+.nav.nav-tabs > li.active > a {
+	color: #fff;
+	padding: 6%;
+	display: block;
+	margin-right: 2%;
+	background: #b5bdc8;
+	background: -moz-linear-gradient(top, #b5bdc8 0%, #828c95 40%, #28343b 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5bdc8), color-stop(40%,#828c95), color-stop(100%,#28343b));
+	background: -webkit-linear-gradient(top, #b5bdc8 0%,#828c95 40%,#28343b 100%);
+	background: -o-linear-gradient(top, #b5bdc8 0%,#828c95 40%,#28343b 100%);
+	background: -ms-linear-gradient(top, #b5bdc8 0%,#828c95 40%,#28343b 100%);
+	background: linear-gradient(to bottom, #b5bdc8 0%,#828c95 40%,#28343b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 );
+	border-bottom: 1px solid #ccc;
+}
+
+.nav.nav-tabs > li > a {
+	color: #2d2d2d;
+	padding: 6%;
+	display: block;
+	margin-right: 2%;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+	border-bottom: 1px solid #ccc;
+}
+
+.theme_options_heading {
+	text-align: center;
+}
+
+.offsetted-text {
+	margin-bottom: 5px;
+}
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][readonly],
+input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+
+#vt_options_container a {
+	text-decoration: none;
+}
+
+#vt_options_container {
+	border: 1px solid #eee;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #fbfbfb;
+}
+
+#vt_options_container .nav {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.submit {
+	margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+	.tab-content {
+		float: none;
+		overflow: visible;
+		width: 100%;
+		padding-top: 10px;
+	}
+
+	.nav.nav-tabs {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+
+	.nav.nav-tabs > li > a, .nav.nav-tabs > li.active > a {
+		padding: 2%;
+	}
+
+}

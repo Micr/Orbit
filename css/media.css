@@ -1,0 +1,15 @@
+@media only screen and (max-width: 980px) {  
+	#footer_widget_area {
+		clear: both;
+		margin: 0 auto;
+		width: 760px;
+	}
+
+
+	.footer-section {
+		float: left;
+		margin: 0 20px;
+		width: 43%;
+	}
+
+}
